@@ -48,6 +48,9 @@
     <Reference Include="SharpDX">
       <HintPath>..\Path of Exile\PoeHelper\SharpDX.dll</HintPath>
     </Reference>
+    <Reference Include="SharpDX.Mathematics">
+      <HintPath>..\Path of Exile\PoeHelper\SharpDX.Mathematics.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BeHeistiary.cs" />
