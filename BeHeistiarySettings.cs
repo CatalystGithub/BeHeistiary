@@ -12,14 +12,14 @@ namespace BeHeistiary
         {
             Enable = new ToggleNode(true);
             Bestiary = new BestiarySettings();
-            Test1 = new UnitSettings(0xffffffff, 0xffffffff);
+            unitsettings = new UnitSettings(0xffffffff, 0xffffffff);
         }
 
         public ToggleNode Enable { get; set; }
         [Menu("Bestiary Settings")]
         public BestiarySettings Bestiary { get; set; }
         [Menu("Burada baslik var")]
-        public UnitSettings Test1 { get; set; }
+        public UnitSettings unitsettings { get; set; }
 
     }
 
