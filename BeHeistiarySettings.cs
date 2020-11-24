@@ -31,6 +31,7 @@ namespace BeHeistiary
         [Menu("Enable Bestiary")]
         public ToggleNode Enable { get; set; }
         
+        [Menu("Toggle 1")]
         public ToggleNode Toggle1 { get; set; }
     }
 }
