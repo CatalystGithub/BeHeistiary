@@ -12,9 +12,9 @@ namespace BeHeistiary
 
             }
 
-            if (ImGui.TreeNodeEx("Bestiary Options", ImGuiTreeNodeFlags.CollapsingHeader))
+            if (ImGui.TreeNodeEx(DirectoryFullName, ImGuiTreeNodeFlags.CollapsingHeader))
             {
-                //Settings.Bestiary.Toggle1.Value = Checkbox("Tree Node for Bestiary", Settings.Bestiary.Toggle1.Value);
+                Settings.Bestiary.Toggle1.Value = Checkbox("Tree Node for Bestiary", Settings.Bestiary.Toggle1.Value);
             }
 
             bool Checkbox(string labelString, bool boolValue)
