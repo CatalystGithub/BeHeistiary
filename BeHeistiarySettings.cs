@@ -11,9 +11,12 @@ namespace BeHeistiary
         public BeHeistiarySettings()
         {
             Enable = new ToggleNode(true);
+            Bestiary = new BestiarySettings();
         }
 
         public ToggleNode Enable { get; set; }
+        [Menu("Bestiary Settings")]
+        public BestiarySettings Bestiary { get; set; }
 
     }
 

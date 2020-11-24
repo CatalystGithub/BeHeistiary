@@ -37,13 +37,16 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="ExileCore">
-      <HintPath>..\..\..\ExileCore.dll</HintPath>
+      <HintPath>..\Path of Exile\PoeHelper\ExileCore.dll</HintPath>
     </Reference>
     <Reference Include="ImGui.NET">
-      <HintPath>..\..\..\ImGui.NET.dll</HintPath>
+      <HintPath>..\Path of Exile\PoeHelper\ImGui.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Path of Exile\PoeHelper\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX">
-      <HintPath>..\..\..\SharpDX.dll</HintPath>
+      <HintPath>..\Path of Exile\PoeHelper\SharpDX.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
