@@ -1,5 +1,6 @@
 ﻿using ExileCore;
 using ImGuiNET;
+using System.IO;
 
 namespace BeHeistiary
 {
@@ -9,7 +10,10 @@ namespace BeHeistiary
         {
             if (ImGui.Button("Test"))
             {
-
+                File.WriteAllText(DirectoryFullName + "/HeistChestRewardType.txt", GameController.Files.HeistChestRewardType.ToString());
+                File.WriteAllText(DirectoryFullName + "/HeistJobs.txt", GameController.Files.HeistJobs.ToString());
+                File.WriteAllText(DirectoryFullName + "/HeistNpcs.txt", GameController.Files.HeistNpcs.ToString());
+                File.WriteAllText(DirectoryFullName + "/BestiaryCapturableMonsters.txt", GameController.Files.BestiaryCapturableMonsters.ToString());
             }
 
             if (ImGui.TreeNodeEx(DirectoryFullName, ImGuiTreeNodeFlags.CollapsingHeader))
